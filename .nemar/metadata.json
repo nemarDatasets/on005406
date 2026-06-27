@@ -1,30 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on005406",
-  "source": "openneuro",
-  "source_id": "ds005406",
+  "pipeline_stage": "validated",
   "title": "EEG frequency tagging reveals the integration of dissimilar observed actions",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Silvia Formica": {},
     "Anna Chaiken": {},
     "Jan R. Wiersema": {},
     "Emiel Cracco": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005406.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005406",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005406",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains EEG recordings investigating the neural mechanisms of action observation and integration. Using frequency tagging methodology, the study examines how the brain processes and integrates dissimilar observed actions, providing insights into the neural basis of action perception and motor cognition.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "motor cognition"
+    },
+    {
+      "term": "neural integration"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
+  "source_hash": "626b021955a455cce0222737f5d8e25464ba873b96f8ce67c59208541fc87a76"
 }
