@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG frequency tagging reveals the integration of dissimilar observed actions",
+  "description": "This dataset contains EEG recordings from an experiment investigating how the brain integrates dissimilar observed actions using frequency tagging methodology. Participants viewed action stimuli while EEG was recorded to measure neural responses at specific frequency tags, revealing neural mechanisms of action integration and observation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,24 @@
     "Jan R. Wiersema": {},
     "Emiel Cracco": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005406.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "frequency tagging"
+    },
+    {
+      "term": "action observation"
+    },
+    {
+      "term": "neural integration"
+    },
+    {
+      "term": "visual perception"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005406",
       "identifier_type": "URL",
@@ -35,15 +48,20 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005406.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "14.2 GB (88 files)"
   ],
   "formats": [
     ".eeg",
@@ -51,30 +69,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings investigating the neural mechanisms of action observation and integration. Using frequency tagging methodology, the study examines how the brain processes and integrates dissimilar observed actions, providing insights into the neural basis of action perception and motor cognition.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "frequency tagging"
-    },
-    {
-      "term": "action observation"
-    },
-    {
-      "term": "motor cognition"
-    },
-    {
-      "term": "neural integration"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    }
-  ],
-  "source_hash": "626b021955a455cce0222737f5d8e25464ba873b96f8ce67c59208541fc87a76"
+  "source_hash": "10dbb3b8cbed44f553ce0d23163debf8a78b4fda1f7b91861804283eb3463c19"
 }
