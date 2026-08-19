@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG frequency tagging reveals the integration of dissimilar observed actions",
-  "description": "This dataset contains EEG recordings from an experiment investigating how the brain integrates dissimilar observed actions using frequency tagging methodology. Participants viewed action stimuli while EEG was recorded to measure neural responses at specific frequency tags, revealing neural mechanisms of action integration and observation.",
+  "description": "This dataset contains EEG recordings from a frequency-tagging study investigating how the brain integrates observed actions that are visually or semantically dissimilar. Participants viewed action stimuli tagged at distinct frequencies while neural responses were recorded to examine integration effects in the frequency domain. The data are organized according to the BIDS-EEG standard.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,20 +22,17 @@
       "term": "action observation"
     },
     {
-      "term": "neural integration"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
-      "term": "visual perception"
+      "term": "social cognition"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005406",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005406",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -53,6 +50,11 @@
       "identifier": "10.18112/openneuro.ds005406.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005406",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
