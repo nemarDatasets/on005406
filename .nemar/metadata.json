@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG frequency tagging reveals the integration of dissimilar observed actions",
-  "description": "This dataset contains EEG recordings from a frequency-tagging study investigating how the brain integrates observed actions that are visually or semantically dissimilar. Participants viewed action stimuli tagged at distinct frequencies while neural responses were recorded to examine integration effects in the frequency domain. The data are organized according to the BIDS-EEG standard.",
+  "description": "EEG dataset investigating how the brain integrates dissimilar observed actions, using frequency tagging. The recordings are organized in BIDS format and were collected to study neural responses to observed actions presented at distinct tagged frequencies.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,12 +22,10 @@
       "term": "action observation"
     },
     {
-      "term": "Visual Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
+      "term": "action integration"
     },
     {
-      "term": "social cognition"
+      "term": "steady-state evoked potentials"
     }
   ],
   "related_identifiers": [
@@ -63,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "14.2 GB (88 files)"
+    "13.26 GB (88 files)"
   ],
   "formats": [
     ".eeg",
